@@ -34,27 +34,31 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
 
     $scope.options = {
 
-            scales: {
-      yAxes: [
-        {
-          id: 'y-axis-1',
-          type: 'linear',
-          display: true,
-          position: 'left'
+        scales: {
+            yAxes: [
+                {
+                    id: 'y-axis-1',
+                    type: 'linear',
+                    display: true,
+                    position: 'left'
+                },
+                {
+                    id: 'y-axis-2',
+                    type: 'linear',
+                    display: false,
+                    position: 'right'
+                }
+            ],
+            xAxes: [{
+                ticks: {
+                    autoSkip: false
+                }
+            }]
         },
-        {
-          id: 'y-axis-2',
-          type: 'linear',
-          display: false,
-          position: 'right'
+        animation: {
+            duration: 5000,
+            easing: 'easeInOutExpo'
         }
-      ],
-      xAxes: [{
-ticks: {
-autoSkip: false
-}
-}]
-    },
     }
     $scope.colors = ['#66BB6A']
 
