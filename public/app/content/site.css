@@ -1,0 +1,197 @@
+.bitcoin{
+    font-size:300px;
+    font-weight:100;
+    text-align: center;
+}
+.bitcoin-md{
+    font-size:200px;
+    font-weight:900;
+    text-align: center;
+}
+.bitcoin-sm{
+    font-size:150px;
+    font-weight:900;
+    text-align: center;
+}
+.bitcoin-xs{
+    font-size:68px;
+    font-weight:900;
+    text-align: center;
+}
+.text{
+    font-size: 48px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.text-xs{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.text-sm{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.top-margin{
+        margin-top: 30px;
+}
+.top-margin-md{
+        margin-top: 200px;
+}
+.top-margin-sm{
+        margin-top: 100px;
+}
+.top-margin-xs{
+        margin-top: 100px;
+}
+.gain{
+    color:#5bda90;
+}
+.loss{
+    color:#ff766c;
+}
+.text-metric-percent{
+    font-size: 150px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.text-metric-dollar{
+    font-size: 72px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.text-metric-dollar-sm{
+    font-size: 32px !important;
+    font-weight: 300  !important;
+}
+.text-metric-dollar-xs{
+    font-size: 24px  !important;
+    font-weight: 300  !important;
+}
+.text-metric-percent-sm{
+    font-size: 56px !important;
+    font-weight: 600  !important;
+}
+.text-metric-percent-xs{
+    font-size: 56px !important;
+    font-weight: 600  !important;
+}
+.text-sm{
+    font-size: 32px !important;
+    font-weight: 300  !important;
+}
+.text-xs{
+    font-size: 24px  !important;
+    font-weight: 300  !important;
+}
+.md-48{
+    font-size:48px !important;
+    vertical-align: middle;
+}
+.canvas{
+    background-color: #3b3b3b !important;
+}
+.material-icons.md-18 { 
+    font-size: 18px;
+     vertical-align: middle;
+     padding:5px;
+}
+.md-subheader{
+    margin-bottom:5px;
+}
+a{
+    text-decoration:none !important;
+}
+.md-subheader.md-default-theme, .md-subheader {
+    color: rgba(255,255,255,0.7);
+    background-color: rgb(56, 56, 56);
+}
+.label{
+    background-color: #202020 !important;
+}
+
+html{
+    background-color: rgba(14, 14, 14, 0) !important;
+}
+body{
+    background-color: rgba(14, 14, 14, 0.8) !important;
+}
+main{
+    background-color: rgba(14, 14, 14, 0) !important;
+}
+md-content{
+    background-color: rgba(14, 14, 14, 0.8) !important;
+    min-height: 100vh !important;;
+}
+label{
+    padding:15px;
+}
+.logo{
+        max-width: 48px;
+    margin-right: 13px;
+}
+.logo-md{
+        max-width: 36px !important;
+    margin-right: 13px;
+}
+
+.pets{
+    
+    vertical-align: middle;
+}
+md-toolbar{
+    opacity:.8;
+}
+
+
+
+
+
+
+
+.right-margin-correction{
+    margin-right: 15px;
+}
+
+
+* { box-sizing: border-box; }
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+#vidtop-content {
+	top: 0;
+	color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
