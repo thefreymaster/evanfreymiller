@@ -40,7 +40,8 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
                     id: 'y-axis-1',
                     type: 'linear',
                     display: true,
-                    position: 'left'
+                    position: 'left',
+                    ticks: { min: 0, max: 100}
                 },
                 {
                     id: 'y-axis-2',
