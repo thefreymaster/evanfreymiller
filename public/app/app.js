@@ -3,9 +3,9 @@ var app = angular.module('evanApp', ['ui.router', 'ngMaterial', 'ngMessages', 'c
 
 $httpProvider.defaults.headers.post['Content-Type'] = 'text/plain'; 
 
-  var evanPalette = $mdThemingProvider.extendPalette('green', {
-    '400': '#1B5E20',
-    'contrastDefaultColor': 'dark'
+  var evanPalette = $mdThemingProvider.extendPalette('grey', {
+    '900': '#626262',
+    'contrastDefaultColor': 'light'
   });
 
   // Register the new color palette map with the name <code>neonRed</code>
@@ -13,10 +13,14 @@ $httpProvider.defaults.headers.post['Content-Type'] = 'text/plain';
 
   // Use that theme for the primary intentions
   $mdThemingProvider.theme('default')
-    .primaryPalette('evanPalette')
+    .primaryPalette('evanPalette', {
+      'default': '900', // by default use shade 400 from the pink palette for primary intentions
+      'hue-1': '100', // use shade 100 for the <code>md-hue-1</code> class
+      'hue-2': '600', // use shade 600 for the <code>md-hue-2</code> class
+      'hue-3': 'A100' // use shade A100 for the <code>md-hue-3</code> class
+    })
     .accentPalette('blue-grey')
     .dark();
-
     
 
 $stateProvider.state('speedtest', {
