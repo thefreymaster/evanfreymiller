@@ -19,6 +19,7 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
         'HTML5': 87,
         'npm': 75,
         'Web Design': 60,
+        'Amazon S3': 55,
         'Adobe Photoshop': 40,
         'Jquery': 45,
         'Adobe Indesign': 30,
@@ -26,6 +27,8 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
         'ExpressJS': 25,
         'Heroku': 40,
         'Amazon API Gateway': 35,
+        'Amazon Route 53': 30,
+        
         'Git': 45
 
     }
