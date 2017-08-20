@@ -65,7 +65,7 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
             easing: 'easeInOutExpo'
         }
     }
-    $scope.colors = ['#66BB6A']
+    $scope.colors = ['rgba(98,98,98,.9)']
 
 
 
