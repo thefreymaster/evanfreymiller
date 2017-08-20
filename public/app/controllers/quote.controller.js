@@ -12,6 +12,7 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
 
     $scope.skills = {
         'AngularJS': 90,
+        'Angular Material': 82,
         'Javascript': 87,
         'CSS3': 80,
         'Adobe Illustrator': 80,
