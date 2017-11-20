@@ -147,8 +147,12 @@ label{
 md-toolbar{
     opacity:.8;
 }
-
-
+.full-height{
+    min-height:95vh;
+}
+.margin-correction{
+        margin-left: 23%;
+}
 
 
 

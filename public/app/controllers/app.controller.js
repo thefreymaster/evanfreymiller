@@ -7,6 +7,7 @@ angular.module('evanApp').controller('AppController', ['$scope', '$mdMedia', '$m
         $scope.screenIsSmall = $mdMedia('sm');
         $scope.screenIsMedium = $mdMedia('md');
         $scope.screenIsLarge = $mdMedia('lg');
+        $scope.screenIsXLarge = $mdMedia('xl');
 
 
   $scope.openLeftMenu = function() {

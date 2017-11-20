@@ -6,6 +6,7 @@ angular.module('evanApp').service('httpService', ['$http', '$mdMedia', function 
     service.screenIsSmall = $mdMedia('sm');
     service.screenIsMedium = $mdMedia('md');
     service.screenIsLarge = $mdMedia('lg');
+    service.screenIsXLarge = $mdMedia('xl');
 
 
 
