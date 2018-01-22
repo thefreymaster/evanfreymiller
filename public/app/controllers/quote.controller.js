@@ -16,7 +16,9 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
         'Javascript': 87,
         'CSS3': 80,
         'Adobe Illustrator': 80,
-        'RESTful APIs': 85,
+        'RESTful Endpoints': 85,
+        'JSON': 89,
+        'Git': 65,
         'HTML5': 87,
         'npm': 75,
         'Web Design': 60,
@@ -29,8 +31,9 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
         'Heroku': 40,
         'Amazon API Gateway': 35,
         'Amazon Route 53': 30,
+        'TypeScript': 23,
+        'Angular 5': 20
         
-        'Git': 45
 
     }
     $scope.labels = [];
