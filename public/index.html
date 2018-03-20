@@ -55,11 +55,22 @@
 <body ng-cloak ng-controller="AppController" layout="column">
     <header>
         <md-toolbar>
-
+            
 
             <div class="md-toolbar-tools">
                 <img ng-class="{'logo-md': screenIsMedium == true}" src="app/content/elogo.svg" class='logo' alt="logo">
                 <h2 flex>EJF</h2>
+                <md-button class='md-icon-button' ng-href='http://eande.canvas23.com' target='_blank'>
+                    <i class="material-icons">&#xE02C;</i>
+                    <md-tooltip>e&e Movies</md-tooltip>
+                </md-button>
+
+                
+                <md-button class='md-icon-button' ng-href='https://coindatabase.herokuapp.com' target='_blank'>
+                    <i class="material-icons">&#xE019;</i>
+                    <md-tooltip>Coindatabase</md-tooltip>
+                </md-button>
+                <md-divider></md-divider>
                 <md-button class='md-icon-button' ng-href='https://github.com/thefreymaster' target='_blank'>
                     <i class="material-icons">storage</i>
                     <md-tooltip>Github</md-tooltip>
@@ -162,11 +173,15 @@
             <div ui-view="speedtestview"></div>
             <div ui-view="contact"></div>
         </md-content>
-        <div class="video-background">
+        <div hide-xs hide-sm class="video-background">
             <div class="video-foreground">
-                <iframe ng-if="screenIsExtraSmall != true" src="https://www.youtube.com/embed/rVVv5kUoxME?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"
+                <iframe src="https://www.youtube.com/embed/rVVv5kUoxME?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"
                     frameborder="0" allowfullscreen></iframe>
-                <!--<img class='margin-correction' src='app/content/mobile_background.jpg'>-->
+            </div>
+        </div>
+        <div hide-md hide-lg hide-xl class="video-background">
+            <div class="video-foreground">
+                <img class='margin-correction' src='app/content/mobile_background.jpg'>
             </div>
         </div>
     </main>

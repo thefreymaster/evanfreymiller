@@ -31,8 +31,9 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
         'Heroku': 40,
         'Amazon API Gateway': 35,
         'Amazon Route 53': 30,
-        'TypeScript': 23,
-        'Angular 5': 20
+        'TypeScript': 55,
+        'Angular 2': 68,
+        'Angular 5': 75
         
 
     }
