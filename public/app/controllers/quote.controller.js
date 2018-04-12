@@ -33,7 +33,8 @@ angular.module('evanApp').controller('SplashController', ['$scope', '$mdMedia', 
         'Amazon Route 53': 30,
         'TypeScript': 55,
         'Angular 2': 68,
-        'Angular 5': 75
+        'Angular 5': 75,
+        'React': 34
         
 
     }
